@@ -16,7 +16,7 @@ app.get('/', function(req, res) {
 
 	// ejs render automatically looks in the views folder
 // 	res.render('index');
-	console.log('Hello testnodejs');
+	JSON.stringify({ Hello: ‘World’})
 });
 
 app.listen(port, function() {
